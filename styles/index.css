@@ -62,3 +62,51 @@ header {
 .hero--contact > a {
   color: inherit;
 }
+
+.banner {
+  background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 550px) -350px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner--content {
+  width: 1130px;
+  padding: 8rem 0;
+  display: flex;
+  gap: 6rem;
+}
+
+.banner--left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 470px;
+}
+
+.banner--left > h2 {
+  font-size: 3rem;
+}
+
+.banner--button {
+  padding: 1rem 2rem;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  border-radius: 2rem;
+}
+
+.banner--right {
+  width: auto;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: end;
+  gap: 30px;
+  filter: invert(50%);
+}
