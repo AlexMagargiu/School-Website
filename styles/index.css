@@ -1,0 +1,5 @@
+header {
+  background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 450px) -150px;
+}
