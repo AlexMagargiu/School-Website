@@ -23,7 +23,8 @@ header {
   color: var(--gray-blue);
 }
 
-.hero--schedule {
+.hero--schedule,
+.info--schedule {
   display: flex;
   width: 80%;
   box-shadow: 10px 10px 25px rgba(54, 83, 107, 0.25);
@@ -32,20 +33,24 @@ header {
   border-radius: 2rem;
 }
 
-.hero--schedule-input > input {
+.hero--schedule-input > input,
+.info--schedule-input > input {
   outline: 0;
   width: 100%;
   color: var(--gray-blue);
 }
 
 .hero--schedule-input > input,
-.hero--schedule-button {
+.hero--schedule-button,
+.info--schedule-input > input,
+.info--schedule-button {
   border: 0;
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
 
-.hero--schedule-button {
+.hero--schedule-button,
+.info--schedule-button {
   position: absolute;
   right: 0;
   background-color: var(--dark-pink);
@@ -72,6 +77,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 35px;
 }
 
 .banner--content {
@@ -109,4 +115,66 @@ header {
   justify-items: end;
   gap: 30px;
   filter: invert(50%);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info--content {
+  width: 1130px;
+  line-height: 40px;
+}
+
+.info--easy,
+.info--simple {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+
+.info--easy-text > h3,
+.info--simple-text > h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--gray-blue);
+}
+
+.info--simple {
+  width: 1100px;
+  margin-left: 3rem;
+}
+
+.info--benefits {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+.info--benefits h4 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--gray-blue);
+}
+
+.info--ready {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.info--ready > p {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--gray-blue);
+}
+
+.info--schedule {
+  width: 30rem;
 }
