@@ -1,0 +1,17 @@
+:root {
+  --pink: #da6d97;
+  --dark-pink: #ba4270;
+  --white: #fbfcfe;
+  --dark-blue: #1b262f;
+  --gray-blue: #36536b;
+  --light-gray: #6c8294;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
