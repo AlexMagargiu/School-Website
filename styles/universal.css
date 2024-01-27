@@ -17,6 +17,7 @@
 }
 
 body {
+  color: var(--light-gray);
   background-color: #edf3f8;
 }
 
@@ -41,6 +42,10 @@ nav {
 nav a {
   color: inherit;
   text-decoration: none;
+}
+
+nav > .nav--right > ul > li {
+  opacity: 70%;
 }
 
 .nav--right {
