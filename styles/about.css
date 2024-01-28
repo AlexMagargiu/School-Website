@@ -1,0 +1,89 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  width: 1130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2.75rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero > h1 {
+  align-self: flex-start;
+  width: 40rem;
+  font-size: 3.25rem;
+  font-weight: 400;
+  color: var(--gray-blue);
+}
+
+.hero--description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero--description > h2 {
+  width: 18rem;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--gray-blue);
+  align-self: flex-start;
+}
+
+.hero--description > p {
+  width: 40rem;
+  line-height: 1.75rem;
+}
+
+.image {
+  width: 100%;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.info {
+  width: 1130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2.75rem;
+}
+
+.info--numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.info--container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.info--container > .number {
+  color: var(--dark-pink);
+  font-size: 3.5rem;
+}
+
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready--content {
+  width: 1130px;
+}
