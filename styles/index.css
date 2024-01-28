@@ -166,7 +166,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 8rem;
+  margin: 8rem 0;
 }
 
 .info--ready > p {
@@ -177,4 +177,27 @@ header {
 
 .info--schedule {
   width: 30rem;
+}
+
+footer {
+  background-color: var(--dark-blue);
+  background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 700px) 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  padding-bottom: 2.75rem;
+}
+
+footer .nav--right {
+  color: var(--white);
+}
+
+.footer--nav-left {
+  border: 0;
+  background-color: var(--dark-blue);
+  display: flex;
+  gap: 1.5rem;
 }
