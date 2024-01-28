@@ -23,8 +23,7 @@ header {
   color: var(--gray-blue);
 }
 
-.hero--schedule,
-.info--schedule {
+.hero--schedule {
   display: flex;
   width: 80%;
   box-shadow: 10px 10px 25px rgba(54, 83, 107, 0.25);
@@ -33,24 +32,20 @@ header {
   border-radius: 2rem;
 }
 
-.hero--schedule-input > input,
-.info--schedule-input > input {
+.hero--schedule-input > input {
   outline: 0;
   width: 100%;
   color: var(--gray-blue);
 }
 
 .hero--schedule-input > input,
-.hero--schedule-button,
-.info--schedule-input > input,
-.info--schedule-button {
+.hero--schedule-button {
   border: 0;
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
 
-.hero--schedule-button,
-.info--schedule-button {
+.hero--schedule-button {
   position: absolute;
   right: 0;
   background-color: var(--dark-pink);
@@ -160,23 +155,6 @@ header {
   font-weight: 400;
   font-size: 1.6rem;
   color: var(--gray-blue);
-}
-
-.info--ready {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 8rem 0;
-}
-
-.info--ready > p {
-  font-size: 3rem;
-  font-weight: 400;
-  color: var(--gray-blue);
-}
-
-.info--schedule {
-  width: 30rem;
 }
 
 footer {

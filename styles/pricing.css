@@ -1,0 +1,78 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.75rem;
+}
+
+.hero {
+  width: 1130px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero > h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--gray-blue);
+}
+
+.pricing {
+  display: flex;
+  gap: 2rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.plan--description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 2rem;
+}
+
+.plan--description > h2 {
+  font-weight: 400;
+  color: var(--pink);
+  font-size: 2rem;
+}
+
+.plan--pricing {
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--gray-blue);
+}
+
+hr {
+  color: var(--gray-blue);
+}
+
+.plan ul {
+  list-style-type: none;
+}
+
+.plan--list {
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.plan--not-included {
+  opacity: 60%;
+}
+
+.plan--button {
+  background-color: var(--white);
+  border: 1px solid var(--gray-blue);
+  color: var(--gray-blue);
+  width: 10rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
