@@ -76,3 +76,13 @@ hr {
   margin-top: 1rem;
   padding: 1rem 0;
 }
+
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready--content {
+  width: 1130px;
+}
