@@ -21,10 +21,99 @@
   </head>
 
   <body>
-    Pricing About Contact Schedule a Demo Submit a help request and we’ll get in
-    touch shortly. Name Email Address Company Name Title Message Stay up-to-date
-    with company announcements and updates to our API Submit Join the thousands
-    of innovators already building with us Ready to start? Enter email address
-    Schedule a Demo Pricing About Contact
+    <header>
+      <nav>
+        <div class="nav--right">
+          <a href="index.html"
+            ><img src="./assets/shared/desktop/logo.svg" alt="logo"
+          /></a>
+          <ul>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <button class="nav--left">
+          <a href="schedule.html">Schedule a Demo</a>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div class="title--container">
+        <h1>Submit a help request and we’ll get in touch shortly.</h1>
+      </div>
+      <section class="form--section">
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <input type="text" placeholder="Company Name" required />
+          <input type="text" placeholder="Title" required />
+          <textarea
+            maxlength="500"
+            rows="5"
+            placeholder="Message"
+            required
+          ></textarea>
+          <div class="form--up-to-date">
+            <input type="checkbox" />
+            <p>
+              Stay up-to-date with company announcements and updates to our API
+            </p>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div class="companies">
+          <h2>Join the thousands of innovators already building with us</h2>
+          <div class="companies--container">
+            <img src="./assets/shared/desktop/tesla.svg" />
+            <img src="./assets/shared/desktop/microsoft.svg" />
+            <img src="./assets/shared/desktop/hewlett-packard.svg" />
+            <img src="./assets/shared/desktop/oracle.svg" />
+            <img src="./assets/shared/desktop/google.svg" />
+            <img src="./assets/shared/desktop/nvidia.svg" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="ready">
+      <div class="ready--content">
+        <div class="info--ready">
+          <p>Ready to start?</p>
+          <div class="info--schedule">
+            <div class="info--schedule-input">
+              <input type="email" placeholder="Enter email address" required />
+            </div>
+            <a href="schedule.html"
+              ><button class="info--schedule-button">Schedule a Demo</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav--right">
+          <a href="index.html"
+            ><img src="./assets/shared/desktop/logo.svg" alt="logo"
+          /></a>
+          <ul>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <button class="footer--nav-left">
+          <a href="" target="_blank"
+            ><img src="./assets/shared/desktop/facebook.svg"
+          /></a>
+          <a href="" target="_blank"
+            ><img src="./assets/shared/desktop/twitter.svg"
+          /></a>
+          <a href="" target="_blank"
+            ><img src="./assets/shared/desktop/linkedin.svg"
+          /></a>
+        </button>
+      </nav>
+    </footer>
   </body>
 </html>
