@@ -14,7 +14,6 @@ if ($conn->connect_error) {
 $stmt = $conn->prepare("INSERT INTO schoolData (name, email, company_name, title, message) VALUES (?, ?, ?, ?, ?)");
 $stmt->bind_param("sssss", $name, $email, $company_name, $title, $message);
 
-// Set parameters and execute
 $name = $_POST['name'];
 $email = $_POST['email'];
 $company_name = $_POST['company_name'];
@@ -26,8 +25,8 @@ if ($stmt->execute() === TRUE) {
 } else {
     echo "Error: " . $stmt->error;
 }
-
-// Close statement and database connection
 $stmt->close();
 $conn->close();
+
+echo "<script>window.location.href = 'index.html';</script>";
 ?>
