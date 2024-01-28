@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  padding-top: 2.75rem;
+  width: 1130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+table {
+  font-size: 1.25rem;
+}
+
+td {
+  text-align: center;
+}
+
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready--content {
+  width: 1130px;
+}
+
+footer {
+  width: 100%;
+}
