@@ -44,11 +44,21 @@
         <h1>Submit a help request and we’ll get in touch shortly.</h1>
       </div>
       <section class="form--section">
-        <form>
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email Address" required />
-          <input type="text" placeholder="Company Name" required />
-          <input type="text" placeholder="Title" required />
+        <form method="get" action="submitToDB.php">
+          <input type="text" placeholder="Name" name="name" required />
+          <input
+            type="email"
+            placeholder="Email Address"
+            name="email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Company Name"
+            name="company_name"
+            required
+          />
+          <input type="text" placeholder="Title" name="title" required />
           <textarea
             maxlength="500"
             rows="5"
@@ -61,7 +71,7 @@
               Stay up-to-date with company announcements and updates to our API
             </p>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" name="submit">Submit</button>
         </form>
         <div class="companies">
           <h2>Join the thousands of innovators already building with us</h2>
