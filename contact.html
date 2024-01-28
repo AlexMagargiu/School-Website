@@ -44,7 +44,7 @@
         <h1>Submit a help request and we’ll get in touch shortly.</h1>
       </div>
       <section class="form--section">
-        <form method="get" action="submitToDB.php">
+        <form method="post" action="http://127.0.0.1:3000/submitToDB.php">
           <input type="text" placeholder="Name" name="name" required />
           <input
             type="email"
@@ -63,6 +63,7 @@
             maxlength="500"
             rows="5"
             placeholder="Message"
+            name="message"
             required
           ></textarea>
           <div class="form--up-to-date">

@@ -15,11 +15,11 @@ $stmt = $conn->prepare("INSERT INTO schoolData (name, email, company_name, title
 $stmt->bind_param("sssss", $name, $email, $company_name, $title, $message);
 
 // Set parameters and execute
-$name = $_GET['name'];
-$email = $_GET['email'];
-$company_name = $_GET['company_name'];
-$title = $_GET['title'];
-$message = $_GET['message'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+$company_name = $_POST['company_name'];
+$title = $_POST['title'];
+$message = $_POST['message'];
 
 if ($stmt->execute() === TRUE) {
     echo "New record created successfully";
